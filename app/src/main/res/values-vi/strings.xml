@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Xin Chào</string>
+    <string name="hello_world">Xin chào!</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="button_click_me">Nhấn vào</string>
+    <string name="button_tutorial_one">Bài hướng dẫn một</string>
+</resources>
