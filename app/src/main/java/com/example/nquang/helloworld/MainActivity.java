@@ -2,13 +2,12 @@ package com.example.nquang.helloworld;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
 
 public class MainActivity extends Activity {
 
@@ -17,10 +16,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final MediaPlayer buttonSound = MediaPlayer.create(this, R.raw.button_sound);
+
         Button tutorialOneButton = (Button) findViewById(R.id.tutorialOneButton);
         tutorialOneButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                buttonSound.start();
                 startActivity(new Intent("com.example.nquang.helloworld.TUTORIALONE"));
             }
         });
