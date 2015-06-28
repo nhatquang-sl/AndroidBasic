@@ -4,4 +4,15 @@
     <string name="action_settings">Cài đặt</string>
     <string name="button_click_me">Nhấn vào</string>
     <string name="button_tutorial_one">Bài hướng dẫn một</string>
+    <string name="button_generate">Tạo</string>
+
+    <string name="text_style">Kiểu</string>
+    <string name="text_gravity">Canh</string>
+    <string name="text_normal">Bình thường</string>
+    <string name="text_bold">In đậm</string>
+    <string name="text_italic">Nghiêng</string>
+    <string name="text_left">Trái</string>
+    <string name="text_right">Phải</string>
+    <string name="text_center">Giữa</string>
+    <string name="text_typeintextandpressbutton">Nhập chuỗi vào rồi nhấn nút dưới đây</string>
 </resources>
